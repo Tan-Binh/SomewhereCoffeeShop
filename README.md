@@ -10,3 +10,8 @@ Link to view this project: https://tan-binh.github.io/SomewhereCoffeeShop
 
 このプロジェクトを表示するリンク：https://tan-binh.github.io/SomewhereCoffeeShop
 
+Tiếng Việt
+
+Đây là trang web SomewhereCoffeeShop được tạo ra để tổng hợp những kiến thức tôi đã học về front-end. Trang web chỉ sử dụng HTML, CSS, Javascript.
+
+Link để xem dự án này: https://tan-binh.github.io/SomewhereCoffeeShop
