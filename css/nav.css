@@ -1,0 +1,29 @@
+section aside {
+    font-family: myFont;
+    width: 25%;
+    height: 500px;
+    background: #fee8d0;
+    display: table-cell;
+}
+section aside nav ul {
+    padding-top: 10px;
+}
+section aside nav ul li {
+    padding: 15px 30px;
+    font-size: 1.5em;
+    list-style-type: none;
+}
+section aside nav ul li:hover,
+section aside nav ul li.active {
+    background: #cca45c url(../images/left/hat_coffee.png) right center no-repeat;
+    transition: all 0.5s;
+}
+section aside nav ul li a {
+    padding-right: 70px;
+    color: #4e2801;
+    text-decoration: none;
+}
+section aside .ly_coffee {
+    width: 80%;
+    text-align: center;
+}

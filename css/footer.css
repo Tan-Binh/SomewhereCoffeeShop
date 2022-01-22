@@ -1,0 +1,35 @@
+footer {
+    background: #4e2801;
+    font-size: 0.9em;
+    display: flex;
+    justify-content: space-between;
+}
+footer ul {
+    padding: 15px 5px;
+    display: flex;
+}
+footer ul li {
+    position: relative;
+    padding-left: 20px;
+    list-style-type: none;
+}
+footer ul li::before {
+    position: absolute;
+    content: "|";
+    color: #cca45c;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+}
+footer ul li:first-child::before {
+    display: none;
+}
+footer ul li a {
+    text-decoration: none;
+    color: #cca45c;
+}
+
+footer .copyright {
+    padding: 15px;
+    color: #cca45c;
+}

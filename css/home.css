@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;    
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(../fonts/TCB_____.TTF);
+}
+
+body {
+    padding: 0 20%;
+    background: 
+     url(../images/backgound/coffee_seed.png) no-repeat left top fixed,
+     url(../images/backgound/coffee_seed.png) no-repeat right bottom fixed,
+     #cca45c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.container {
+    box-shadow: 0px 0px 30px black;
+}
+
+/*=== section begin ===*/
+section {
+    width: 100%;
+    display: table; 
+}
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*=== section end ===*/
+
+/*=== article begin ===*/
+section article {
+    width: 75%;
+    padding: 10px;
+    background: white;
+    color: #4e2801;
+    display: table-cell;
+}
+section article h1 {
+    padding: 5px 0;
+    font-size: 1.5em;
+}
+
+section article p {
+    padding: 5px 0;
+}
+
+section article .images {
+    padding: 10px 0;
+    display: flex;
+}
+section article .images img {
+    width: calc(100%/3);
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+section article .images img:first-child {
+    padding-left: 0;
+}
+
+/*Map begin*/
+section article .map {
+    border: 1px solid gray;
+}
+section article .map iframe {
+    width: 100%;
+}
+/*Map begin*/
+
+/*table begin*/
+section article table {
+    width: 100%;
+    border-collapse: collapse;
+}
+section article table tr th {
+    background: #fee8d0;
+    font-weight: bold;
+    text-align: left;
+}
+section article table tr th,
+section article table tr td {
+    padding: 10px;
+}
+/*table end*/
+
+/*form begin*/
+section article form table tr td {
+    padding: 5px 5px 5px 0 !important;
+}
+section article form table tr td input {
+    padding: 2px;
+}
+/*form end*/
+/*=== article end ===*/

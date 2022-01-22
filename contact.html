@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicons/favicon-16x16.png">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
+    <title>Somewhere Coffee Shop</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="banner slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <img src="./images/header/banner.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="./images/header/coffee1.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="./images/header/coffee2.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="./images/header/coffee3.jpg">
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+
+            <div class="logo">
+                <img src="./images/header/logo.png" alt="">
+            </div>
+        </header>
+
+        <section>
+            <aside>
+                <nav>
+                    <ul>
+                        <li class="page"><a href="./index.html">Home</a></li>
+                        <li class="page"><a href="./contact.html">About</a></li>
+                        <li class="page"><a href="./location.html">Location</a></li>
+                        <li class="page"><a href="./menu.html">Menu</a></li>
+                        <li class="page active"><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="ly_coffee">
+                    <img src="./images/left/ly_coffee.png" alt="">
+                </div>
+            </aside>
+
+            <article>
+                <h1>Contact us</h1>
+                <p>
+                    Thank you for your interest. Please send us comments
+                    using the form below:
+                </p>
+                <form action="">
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="firstName">FirstName</label>
+                            </td>
+                            <td>
+                                <input type="text" name="firstName" id="firstName">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="lastName">LastName</label>
+                            </td>
+                            <td>
+                                <input type="text" name="lastName" id="lastName">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="phone">Phone</label>
+                            </td>
+                            <td>
+                                <input type="tel" name="phone" id="phone">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="email">Email</label>
+                            </td>
+                            <td>
+                                <input type="email" name="email" id="email">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="comments">Comments</label>
+                            </td>
+                            <td>
+                                <textarea name="comments" id="comments" cols="50" rows="7"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <input type="checkbox" name="newsletter" value="newsletter">
+                                <label for="newsletter">Send me your monthly newsletter</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="submit" value="Submit"></td>
+                        </tr>
+                    </table>
+                </form>
+            </article>
+        </section>
+        <footer>
+            <ul>
+                <li><a href="">Hours</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Survey & Feedback</a></li>
+            </ul>
+            <p class="copyright">&copy; 2019</p>
+        </footer>
+    </div>
+
+    <script type="text/javascript" src="./js/snow.js"></script>
+    <script src="./js/home.js"></script>
+
+</body>
+
+</html>
